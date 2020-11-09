@@ -1,0 +1,82 @@
+body{
+    max-width: 600px;
+    margin: 0 auto;
+    background: #ffffff;
+}
+
+.container{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+ul{
+    list-style: none;
+    list-style-type: none;
+}
+
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.nav-item{
+    display: inline;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 20px;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profile .image{
+    display: flex;
+    justify-content: center;
+}
+
+.profile img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+
+.profile .profile-bio{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+
+.skils{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skill-item{
+    display: inline;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.project-item, .blog-item{
+    padding: 5px;
+}
+
+.footer{
+    padding: 10px;
+}
